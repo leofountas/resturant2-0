@@ -1,0 +1,94 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(209, 89, 76);
+}
+
+.navbar {
+    background-color: rgb(44, 44, 44);
+    height: 80px;
+}
+
+ .navbar-brand {
+    margin-right: 0;
+}
+
+.offcanvas-body .nav-link {
+    color: rgb(227, 56, 37);
+    font-weight: 500;
+}
+
+.offcanvas-body .nav-link:hover {
+    border-bottom: 2px solid rgb(227, 56, 37);
+}
+
+.navbar-toggler {
+    background-color: rgb(227, 56, 37);
+    border:none;
+    font-size: 1.25rem;
+}
+
+.btn-close {
+    background-color: rgb(227, 56, 37);
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.offcanvas {
+    background-color: rgb(44, 44, 44);
+}
+
+
+.linktocontact {
+    color: white;
+    font-weight: 700;
+}
+
+.pagination .page-item .page-link {
+    color: rgb(227, 56, 37);
+    background-color: rgb(44, 44, 44);
+    border: none;
+    font-weight: bold;
+}
+
+.pagination .page-item .page-link:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.gallery-img {
+    width: 100%;
+    height: auto;
+}
+
+#gallery {
+    background-color: rgb(174, 65, 53);
+    border-radius: 16px;
+}
+
+.card-body {
+    background-color: rgb(174, 65, 53);
+
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+table {
+    display: none;
+}

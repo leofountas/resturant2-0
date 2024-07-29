@@ -1,0 +1,80 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(44, 44, 44);
+    height: 80px;
+    border-radius: 16px;
+}
+
+ .navbar-brand {
+    margin-right: 0;
+}
+
+.offcanvas-body .nav-link {
+    color: rgb(227, 56, 37);
+    font-weight: 500;
+}
+
+.offcanvas-body .nav-link:hover {
+    border-bottom: 2px solid rgb(227, 56, 37);
+}
+
+.navbar-toggler {
+    background-color: rgb(227, 56, 37);
+    border:none;
+    font-size: 1.25rem;
+}
+
+.btn-close {
+    background-color: rgb(227, 56, 37);
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.offcanvas {
+    background-color: rgb(44, 44, 44);
+}
+
+.row {
+    margin: 0;
+}
+
+ img {
+    object-fit: cover;
+}
+
+h1 {
+    color:  white;
+    background-color: rgb(44, 44, 44);
+    margin: 0;
+}
+
+.list-group-item {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin: 5px;
+}
+
+.badge {
+    font-size: 15px;
+}
+
+
+
+
+
+
+@media (min-width: 650px) {
+    #pizzabackground {
+        height: 450px;
+    }
+
+    .list-group-item {
+        margin: 0px;
+    }
+}
